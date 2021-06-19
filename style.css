@@ -1,0 +1,173 @@
+
+* {
+  padding: 0%;
+  margin: 0%;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.5px;
+}
+
+/* Mobile view */
+.main {
+  height: 35vh;
+  padding-left: 25px;
+}
+
+.hd {
+  margin-bottom: 22px;
+  margin-top: 30px;
+  color: rgb(108, 188, 188);
+  font-weight: 900;
+}
+
+.hd2 {
+  margin-bottom: 15px;
+  color: rgb(34, 201, 42);
+}
+
+.desc{
+  line-height: 23px;
+  font-size: 0.9rem;
+  color: lightgray;
+}
+
+
+
+.part-1 {
+  height: 38vh;
+  background-color: rgb(89, 176, 176);
+}
+
+.part-2 {
+  height: 38vh;
+  background-color: rgb(108, 188, 188);
+}
+
+.part-1 h3{
+  font-size: 1.2rem;
+}
+
+.part-1 p{
+  font-size: 0.8rem;
+}
+
+.pad {
+  padding: 25px;
+  color: white;
+}
+
+.tn{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.dollar {
+  font-size: 2.3rem;
+}
+
+.pm {
+  vertical-align: center;
+  color: lightgray;
+}
+
+button {
+  margin-top: 20px;
+  width: 19rem;
+  height: 3rem;
+  border: none;
+  font-size: 1.2rem;
+  border-radius: 6px;
+  background-color: #bfdf32;
+  color: white;
+  box-shadow: 2px 2px 2px 3px grey;
+}
+
+.wu{
+  padding-bottom: 15px;
+}
+.container {
+  color: rgb(246, 246, 246);
+  line-height: 1.6rem;
+  font-size: .8rem;
+  color: lightgray;
+}
+
+/* Desktop view */
+
+@media (max-width: 1024px){
+  .containerd, .dollard, .hdd, .hdd2, .maind, .padd, .part-1d, .part-2d, .pmd, .subd{
+    display: none;
+  }
+}
+
+@media (max-width: 768px){
+  .containerd, .dollard, .hdd, .hdd2, .maind, .padd, .part-1d, .part-2d, .pmd, .subd{
+    display: none;
+  }
+}
+
+@media (min-width :1200px){
+  .container, .desc, .dollar, .hd, .hd2, .main, .pad, .part-1, .part-2, .pm, .tn, .wu{
+    display: none;
+  }
+
+  .maind {
+    height: 40vh;
+    padding-left: 30px;
+  }
+  .hdd {
+    margin-bottom: 40px;
+    margin-top: 40px;
+    color: rgb(108, 188, 188);
+  }
+  
+  .hdd2 {
+    margin-bottom: 15px;
+    color: rgb(34, 201, 42);
+  }
+  
+  .subd {
+    height: 60vh;
+    margin-bottom: 50px;
+  }
+  
+  .part-1d {
+    float: left;
+    width: 50%;
+    background-color: rgb(89, 176, 176);
+    height: 55vh;
+  }
+  
+  .part-2d {
+    float: left;
+    width: 50%;
+    background-color: rgb(108, 188, 188);
+    height: 55vh;
+  }
+  
+  .padd {
+    padding: 30px;
+    color: white;
+  }
+  
+  .dollard {
+    font-size: 2.8rem;
+  }
+  
+  .pmd {
+    vertical-align: center;
+    color: lightgray;
+  }
+  
+  button {
+    width: 17rem;
+    height: 3rem;
+    border: none;
+    font-size: 1rem;
+    border-radius: 6px;
+    background-color: rgb(164, 235, 21);
+  }
+  
+  .containerd {
+    color: lightgray;
+    line-height: 2rem;
+  }
+}
